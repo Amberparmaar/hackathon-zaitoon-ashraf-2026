@@ -1,0 +1,108 @@
+/* font roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* font Rochester */
+@import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+.nav-link {
+  gap: 0;
+  transition: background-color 2s ease-in-out;
+}
+.nav-link:hover, .btn-hover:hover{
+  background-color: rgb(232, 210, 83);
+}
+.bg-gray {
+  background-color: rgba(238, 241, 247, 1);
+}
+.input-group {
+  width: 400px;
+}
+.bg-graybutton{
+    background: rgba(238, 241, 247, 1);
+
+}
+.dark-img {
+  filter: brightness(35%);
+}
+.text-purple{
+    color: blueviolet;
+}
+
+.bg-purple{
+    background-color: rgb(209, 177, 240);
+}
+
+
+
+.brands img {
+  width: 80px;
+  animation-name: myanimation;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+@keyframes myanimation {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 50px;
+  }
+  100% {
+    width: 100px;
+  }
+}
+.card-img-top {
+  width: 50px;
+  height: 50px;
+}
+.fa-star {
+  color:#ffe234;
+}
+.list li {
+  color: gray;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.bg-footer {
+  background-color: rgba(17, 24, 39, 1);
+}
+footer li {
+  transition: color 2s ease-in-out;
+}
+
+footer li:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+
+@media screen and (max-width: 950px) {
+  .input-group {
+    width: 300px;
+  }
+  .input-group-text {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .input-group {
+    width: 100%;
+  }
+  .input-group-text {
+    width: 100%;
+    cursor: pointer;
+  }
+  .center{
+  margin-left: 60px;
+}
+}
