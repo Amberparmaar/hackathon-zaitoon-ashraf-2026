@@ -15,7 +15,8 @@
   gap: 0;
   transition: background-color 2s ease-in-out;
 }
-.nav-link:hover, .btn-hover:hover{
+.nav-link:hover,
+.btn-hover:hover {
   background-color: rgb(232, 210, 83);
 }
 .bg-gray {
@@ -24,22 +25,19 @@
 .input-group {
   width: 400px;
 }
-.bg-graybutton{
-    background: rgba(238, 241, 247, 1);
-
+.bg-graybutton {
+  background: rgba(238, 241, 247, 1);
 }
 .dark-img {
   filter: brightness(35%);
 }
-.text-purple{
-    color: blueviolet;
+.text-purple {
+  color: blueviolet;
 }
 
-.bg-purple{
-    background-color: rgb(209, 177, 240);
+.bg-purple {
+  background-color: rgb(209, 177, 240);
 }
-
-
 
 .brands img {
   width: 80px;
@@ -64,7 +62,7 @@
   height: 50px;
 }
 .fa-star {
-  color:#ffe234;
+  color: #ffe234;
 }
 .list li {
   color: gray;
@@ -85,13 +83,16 @@ footer li:hover {
   color: yellow;
 }
 
-
 @media screen and (max-width: 950px) {
   .input-group {
     width: 300px;
   }
   .input-group-text {
     width: 150px;
+  }
+   .display-card{
+    display: none !important;
+    
   }
 }
 @media screen and (max-width: 525px) {
@@ -102,7 +103,11 @@ footer li:hover {
     width: 100%;
     cursor: pointer;
   }
-  .center{
-  margin-left: 60px;
-}
+  .center {
+    margin-left: 60px;
+  }
+  .display-card{
+    display: none !important;
+    
+  }
 }
