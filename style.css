@@ -90,10 +90,10 @@ footer li:hover {
   .input-group-text {
     width: 150px;
   }
-   .display-card{
-    display: none !important; 
+  .display-card {
+    display: none !important;
   }
-  aside{
+  aside {
     display: none !important;
   }
 }
@@ -108,8 +108,7 @@ footer li:hover {
   .center {
     margin-left: 60px;
   }
-  .display-card{
+  .display-card {
     display: none !important;
-    
   }
 }
